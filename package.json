@@ -1,0 +1,24 @@
+{
+  "name": "webpack_template",
+  "version": "1.0.0",
+  "description": "Play grpound with webpack",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillSelyukov/webpack_templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillSelyukov/webpack_templates/issues"
+  },
+  "homepage": "https://github.com/KirillSelyukov/webpack_templates#readme"
+}
