@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link,Route } from 'react-router-dom';
 
 import Users from './containers/Users';
 import asyncComponent from './hoc/asyncComponent';
@@ -11,11 +11,9 @@ const AsyncPizza = asyncComponent(() => {
 class App extends Component {
     render() {
         return (
-            <div>
+            <div>Hello
                 <div>
-                    <Link to='/'>Users</Link> |
-                    <Link to='/pizza'>Pizza</Link>
-
+                    <Link to='/'>Users</Link> | <Link to='/pizza'>Pizza</Link>
                 </div>
 
                 <div>
@@ -25,5 +23,6 @@ class App extends Component {
             </div>
         );
     }
-
 }
+
+export default App;
